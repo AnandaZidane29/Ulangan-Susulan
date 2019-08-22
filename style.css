@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nama-barang {
+    margin: 0 auto;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nama-barang div {
+    padding: 10px;
+}
+
+#nama-barang div .nama-barang::before {
+    content: "Nama :"
+}
+
+#nama-barang div .harga-barang::before {
+    content: "harga :"
+}
+
+.gambar img{
+    width: 150px;
+    margin: 30px;
+    height:150px;
+}
+.item {
+    flex: 1;
+    background: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px black;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: orange;
+    text-indent: 50px;
+    color: white;
+}
